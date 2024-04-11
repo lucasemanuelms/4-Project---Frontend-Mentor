@@ -58,7 +58,7 @@ body{
     margin-top: 80px;
     color: hsl(233, 8%, 79%);
     font-size: 16px;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
  }
 
  nav{
@@ -79,10 +79,11 @@ li{
 .secondBlc{
    display: flex;
    margin-bottom: 40px;
+   justify-content: space-between;
 }
 
 .sectionOne{
-   width: 65%;
+   width: 70%;
    margin-right: 35px;
 }
 
@@ -90,12 +91,45 @@ li{
    width: 100%;
 }
 
+.noticeOne{
+   display: flex;
+   margin-top: 25px;
+   justify-content: space-between;
+}
+
+.titleNoticeOne{
+   width: 50%;
+}
+
+h1{
+   font-weight: 800;
+   font-size: 58px;
+   line-height: 60px;
+}
+
+.descriptionNoticeOne{
+   width: 60%;
+}
+
+.readMoreBtn{
+   margin-top: 60px;
+   padding: 12px 40px;
+   text-transform: uppercase;
+   letter-spacing: 2px;
+   color: hsl(36, 100%, 99%);
+   background-color: hsl(5, 85%, 63%);
+   border: none;
+}
+
+
+
 .sectionTwo{
    width: 30%;
    background-color: hsl(240, 100%, 5%);
    color: hsl(36, 100%, 99%);
+   padding: 25px 20px;
 }
 
-.sectionThree{
+/* .sectionThree{
    display: flex;
-}
+}  */
