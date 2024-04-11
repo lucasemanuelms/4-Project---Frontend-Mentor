@@ -5,6 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles/style.css">
   
   <title>Frontend Mentor | News homepage</title>
@@ -12,63 +15,69 @@
 </head>
 <body>
 
-  <header>
-    <img src="images/logo.svg" alt="Logo image">
-    <nav>
-      <ul>
-        <li>Home</li>
-        <li>New</li>
-        <li>Popular</li>
-        <li>Trending</li>
-        <li>Categories</li>
-      </ul>
-    </nav>
-  </header>
+  <div class="container">
+    <header class="headerContainer">
+      <img src="images/logo.svg" alt="Logo image">
+      <nav>
+        <ul>
+          <li>Home</li>
+          <li>New</li>
+          <li>Popular</li>
+          <li>Trending</li>
+          <li>Categories</li>
+        </ul>
+      </nav>
+    </header>
 
-  <main>
-    <section>
-      <img src="images/image-web-3-desktop.jpg" alt="Principal image">
-      <h1>The Bright Future of Web 3.0?</h1>
-      <p>We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. But is it really fulfilling its promise?</p>
-      <button>Read more</button>
-    </section>
+    <main>
+
+      <div class="secondBlc">
+
+        <section class="sectionOne">
+          <img src="images/image-web-3-desktop.jpg" alt="Principal image" class="principalImage">
+          <h1>The Bright Future of Web 3.0?</h1>
+          <p>We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. But is it really fulfilling its promise?</p>
+          <button>Read more</button>
+        </section>
+
+        <section class="sectionTwo">
+          <h2>New</h2>
+          <h4>Hydrogen VS Electric Cars</h3>
+          <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+    
+          <h4>The Downsides of AI Artistry</h3>
+          <p>What are the possible adverse effects of on-demand AI image generation?</p>
+    
+          <h4>Is VC Funding Drying Up?</h3>
+          <p>Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+        </section>
+      </div>
+      
+      <section class="sectionThree">
+        <article>
+          <img src="images/image-retro-pcs.jpg" alt="Retro PCs">
+          <h3>01</h3>
+          <h5>Reviving Retro PCs</h5>
+          <p>What happens when old PCs are given modern upgrades?</p>
+        </article>
   
-    <section>
-      <h2>New</h2>
-      <h4>Hydrogen VS Electric Cars</h3>
-      <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
-
-      <h4>The Downsides of AI Artistry</h3>
-      <p>What are the possible adverse effects of on-demand AI image generation?</p>
-
-      <h4>Is VC Funding Drying Up?</h3>
-      <p>Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
-    </section>
-
-    <section>
-      <article>
-        <img src="images/image-retro-pcs.jpg" alt="Retro PCs">
-        <h3>01</h3>
-        <h5>Reviving Retro PCs</h5>
-        <p>What happens when old PCs are given modern upgrades?</p>
-      </article>
-
-      <article>
-        <img src="images/image-top-laptops.jpg" alt="Laptop image">
-        <h3>02</h3>
-        <h5>Top 10 Laptops of 2022</h5>
-        <p>Our best picks for various needs and budgets.</p>
-      </article>
-
-      <article>
-        <img src="images/image-gaming-growth.jpg" alt="Video game control image">
-        <h3>03</h3>
-        <h5>The Growth of Gaming</h5>
-        <p>How the pandemic has sparked fresh opportunities.</p>
-      </article>
-    </section>
-  </main>
-
+        <article>
+          <img src="images/image-top-laptops.jpg" alt="Laptop image">
+          <h3>02</h3>
+          <h5>Top 10 Laptops of 2022</h5>
+          <p>Our best picks for various needs and budgets.</p>
+        </article>
+  
+        <article>
+          <img src="images/image-gaming-growth.jpg" alt="Video game control image">
+          <h3>03</h3>
+          <h5>The Growth of Gaming</h5>
+          <p>How the pandemic has sparked fresh opportunities.</p>
+        </article>
+      </section>
+    </main>
+  </div>
+  
   <script src="scripts/script.js"></script>
 
 </body>
