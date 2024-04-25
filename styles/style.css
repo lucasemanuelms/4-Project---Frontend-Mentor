@@ -71,7 +71,7 @@ ul{
 }
 
 li{
-   margin-left: 35px;
+   margin-left: 30px;
    font-size: 15px;
 }
 
@@ -98,17 +98,21 @@ li{
 }
 
 .titleNoticeOne{
-   width: 50%;
+   width: 45%;
 }
 
 h1{
    font-weight: 800;
-   font-size: 48px;
+   font-size: 43px;
    line-height: 50px;
 }
 
 .descriptionNoticeOne{
-   width: 50%;
+   width: 54%;
+}
+
+#textNoticeOne{
+   text-align: start;
 }
 
 .readMoreBtn{
@@ -126,6 +130,19 @@ h1{
    background-color: hsl(240, 100%, 5%);
    color: hsl(36, 100%, 99%);
    padding: 25px 20px;
+}
+
+h2{
+   color:hsl(35, 77%, 62%);
+   margin-bottom: 20px;
+}
+
+h4{
+   margin-bottom: 10px;
+}
+
+hr{
+   
 }
 
 .sectionThree{
