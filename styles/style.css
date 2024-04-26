@@ -49,7 +49,7 @@ body{
  }
 
  .container{
-   max-width: 1000px;
+   max-width: 1100px;
  }
 
  .headerContainer{
@@ -71,44 +71,49 @@ ul{
 }
 
 li{
-   margin-left: 35px;
+   margin-left: 40px;
    font-size: 15px;
+}
+
+li:hover{
+   cursor: pointer;
+   color: hsl(5, 85%, 63%);
+   transition: 0.3s;
 }
 
  .bodyContainer{
    display: flex;
-   margin-bottom: 50px;
+   margin-bottom: 45px;
    justify-content: space-between;
 }
 
 .sectionOne{
-   width: 70%;
+   width: 75%;
    margin-right: 25px;
 }
 
 .principalImage{
    width: 100%;
-   height: 250px;
+   height: 280px;
 }
 
 .noticeOne{
    display: flex;
    margin-top: 20px;
-   justify-content: space-between;
 }
 
 .titleNoticeOne{
-   width: 45%;
+   width: 50%;
 }
 
 h1{
    font-weight: 800;
-   font-size: 43px;
+   font-size: 55px;
    line-height: 50px;
 }
 
 .descriptionNoticeOne{
-   width: 54%;
+   width: 48%;
 }
 
 #textNoticeOne{
@@ -123,6 +128,12 @@ h1{
    color: hsl(36, 100%, 99%);
    background-color: hsl(5, 85%, 63%);
    border: none;
+}
+
+.readMoreBtn:hover{
+   cursor: pointer;
+   background-color: hsl(240, 100%, 5%);
+   transition: 0.3s;
 }
 
 .sectionTwo{
@@ -141,10 +152,16 @@ h4{
    margin-bottom: 10px;
 }
 
+h4:hover{
+   cursor: pointer;
+   color: hsl(35, 77%, 62%);
+   transition: 0.3s;
+}
+
 .hydrogenDiv{
    margin-bottom: 30px;
    border-bottom: 1px solid hsl(233, 8%, 79%);
-   padding-bottom: 30px;
+   padding: 0 5px 30px;
 }
 
 .downsidesDiv{
@@ -155,36 +172,57 @@ h4{
 
 .sectionThree{
    display: flex;
-   /* justify-content: space-between; */
+   justify-content: space-between;
 } 
+
+.retroTopDiv{
+   display: flex;
+   width: 70%;
+   margin-right: 25px;
+   gap: 45px;
+}
+
+.lapTopDiv{
+   padding-right: 50px;
+}
+
+.growthDiv{
+   width: 32%;
+}
 
 article{
    display: flex;
-   width: 30%;
+   width: 100%;
 }
 
 .secondaryImg{
-   height: 110px;
+   height: 115px;
 }
 
+.articleDescArea{
+   padding-left: 15px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+} 
+
 h3{
-   font-size: 1.5em;
+   font-size: 2em;
    color: hsl(233, 8%, 79%);
 }
 
 h5{
-   font-size: 1em;
+   font-size: 1.1em;
    color: hsl(240, 100%, 5%);
+}
+
+h5:hover{
+   cursor: pointer;
+   color: hsl(5, 85%, 63%);
+   transition: 0.3s;
 }
 
 p{
    font-size: 15px;
    color: hsl(233, 8%, 79%);
 }
-
-.articleDescArea{
-   display: flex;
-   flex-direction: column;
-   justify-content: space-between;
-   padding-left: 20px;
-} 
