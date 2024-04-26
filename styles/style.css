@@ -64,6 +64,10 @@ nav{
    align-items: center;
 }
 
+.menuIcon{
+   display: none;
+}
+
 ul{
    display: flex;
    list-style: none;
@@ -95,6 +99,10 @@ li:hover{
 .principalImage{
    width: 100%;
    height: 280px;
+}
+
+.principalImageMobile{
+   display: none;
 }
 
 .noticeOne{
@@ -225,4 +233,94 @@ h5:hover{
 p{
    font-size: 15px;
    color: hsl(233, 8%, 79%);
+}
+
+@media screen and (max-width: 375px) {
+
+   body{
+      height: 100%;
+   }
+
+   .bodyContainer{
+      flex-direction: column;
+      justify-content: center;
+   }
+
+   ul{
+      display: none;
+   }
+
+   .menuIcon{
+      display: flex;
+   }
+
+   .container{
+      width: 90%;
+      margin-top: 25px;
+   }
+
+   .sectionOne{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      margin-bottom: 50px;
+      margin-right: 0;
+   }
+
+   .titleNoticeOne{
+      width: 100%;
+      margin-bottom: 15px;
+   }
+
+   h1{
+      font-size: 40px;
+      line-height: 35px;
+   }
+
+   .noticeOne{
+      flex-direction: column;
+   }
+
+   .descriptionNoticeOne{
+      width: 100%;
+   }
+
+   .readMoreBtn{
+      margin-top: 20px;
+      padding: 12px 35px;
+   }
+
+   .principalImage{
+      display: none;
+   }
+
+   .principalImageMobile{
+      display: flex;
+      width: 100%;
+   }
+
+   .sectionTwo{
+      width: auto;
+   }
+
+   .sectionThree{
+      flex-direction: column;
+   }
+
+   .retroTopDiv{
+      flex-direction: column;
+      width: 100%;
+      gap: 25px;
+      margin: 0;
+   }
+
+   .growthDiv{
+      width: 100%;
+      margin: 25px 0;
+   }
+
+   .articleDescArea{
+      padding-right: 10px;
+   }
+
 }
