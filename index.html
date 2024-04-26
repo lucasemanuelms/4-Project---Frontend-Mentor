@@ -19,15 +19,15 @@
 
     <header class="headerContainer">
       <img src="images/logo.svg" alt="Logo image">
-      <nav>
-        <ul>
+      <nav class="navigation">
+        <ul class="navigationUl">
           <li href="#">Home</li>
           <li href="#">New</li>
           <li href="#">Popular</li>
           <li href="#">Trending</li>
           <li href="#">Categories</li>
         </ul>
-        <img src="images/icon-menu.svg" alt="Menu icon" class="menuIcon">
+        <img src="images/icon-menu.svg" alt="Menu icon" class="menuIcon" onclick="openMenu()">
       </nav>
     </header>
 
@@ -102,8 +102,25 @@
         </article>
       </div>
     </section>
-    
+
   </div>
+
+  <div class="burgerMenu" style="display: none;">
+    <div>
+      <img src="images/icon-menu-close.svg" alt="Close icon" class="closeIcon" onclick="closeMenu()">
+    </div>
+    <div class="menuListBurger">
+      <ul>
+        <li href="#">Home</li>
+        <li href="#">New</li>
+        <li href="#">Popular</li>
+        <li href="#">Trending</li>
+        <li href="#">Categories</li>
+      </ul>
+    </div>
+  </div>
+
+  <script src="scripts/script.js"></script>
 
 </body>
 </html>
